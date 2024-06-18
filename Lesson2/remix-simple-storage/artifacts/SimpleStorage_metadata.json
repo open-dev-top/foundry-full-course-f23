@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_favoriteNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "store",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Lesson2/remix-simple-storage/SimpleStorage.sol": "SimpleStorage"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Lesson2/remix-simple-storage/SimpleStorage.sol": {
+			"keccak256": "0x37a6475e41601a100e2ffc1131f49b3bd046e4cd4cde4e388a959442b32fe554",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e97d3d5b21f23e95ec2cb9a5ceb3190364a4924efea8c25947db7f32309a18c1",
+				"dweb:/ipfs/Qmd1Gy8suqfAHTV8UTZgGcj4PhdhbNLnMSyEPxNUPu3aeH"
+			]
+		}
+	},
+	"version": 1
+}
