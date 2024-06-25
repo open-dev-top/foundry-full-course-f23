@@ -1,0 +1,141 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_favoriteNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "addPerson",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "listOfPeople",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "favoriteNumber",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "nameToFavoriteNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "retrieve",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_newNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "store",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Lesson3/remix-storage-factory/AddFiveStorage.sol": "AddFiveStorage"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Lesson3/remix-storage-factory/AddFiveStorage.sol": {
+			"keccak256": "0x9010507c292834e2b106a5226f58430264c47b06a8fe00764bd695c29ade0ccd",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0666131fc1039581341aa7e988b4f84d0ed881bc32de6ad54a691ae0e1d21889",
+				"dweb:/ipfs/QmWUFjktWWDLqfYFZnMoFhTnFPX4ZS9BMuce4pksT7JykV"
+			]
+		},
+		"Lesson3/remix-storage-factory/SimpleStorage.sol": {
+			"keccak256": "0xeba0e06f22594a6b3787c8708256d1cf72a011d500da118ad9874079b91a5ef4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://31a957c3af14a55abb71a593797a0bf9002d69f7fe71de65e9f95a9865a70a7e",
+				"dweb:/ipfs/QmYchFctiegrYcRRfB3gE6cYq7Ys2t5SxByQVb4WC4sd92"
+			]
+		}
+	},
+	"version": 1
+}
