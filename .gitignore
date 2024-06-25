@@ -17,3 +17,4 @@ brownie-contracts-nfts/
 tweet.md
 nfts-zksync-foundry/ 
 nfts-zksync-hardhat/
+node_modules
