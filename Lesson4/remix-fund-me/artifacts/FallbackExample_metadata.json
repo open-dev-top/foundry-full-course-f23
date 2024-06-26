@@ -1,0 +1,67 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "result",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Lesson4/remix-fund-me/FallbackExample.sol": "FallbackExample"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Lesson4/remix-fund-me/FallbackExample.sol": {
+			"keccak256": "0x75c8ba43f89466a7b173ac74ee1b27b8b790a8108ba25f7abaa6e48e1eab7952",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f915d5296deea082907b11fb80422da415765c588dde135cd130e268aeaf4b76",
+				"dweb:/ipfs/QmQTg4Ys23VFrZ6EVxGhjh9vRK1VcZdBpZ2mG5owPcnAHM"
+			]
+		}
+	},
+	"version": 1
+}
