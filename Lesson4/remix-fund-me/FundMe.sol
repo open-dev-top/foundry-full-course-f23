@@ -77,9 +77,13 @@ contract FundMe{
         require(callSuccess, "Call faied");
     }
 
-
-    // receive()
-    // fallback()
+    // Gas Usage: 860018
+    receive() external payable {
+        fund();
+    }
+    fallback() external payable {
+        fund();
+    }
 }
 
 // Deploy on the Sepolia Testnet
