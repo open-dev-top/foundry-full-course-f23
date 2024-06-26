@@ -1,0 +1,6 @@
+curl -L https://foundry.paradigm.xyz | bash
+
+forge --version
+cast --version
+anvil --version
+chisel --version
