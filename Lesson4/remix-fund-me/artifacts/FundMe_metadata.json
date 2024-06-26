@@ -6,6 +6,11 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "address",
@@ -62,6 +67,26 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -100,11 +125,11 @@
 			]
 		},
 		"Lesson4/remix-fund-me/FundMe.sol": {
-			"keccak256": "0x4c1a500ec0d9ca071fff119e766c42d52ea25a84b45bb6900aa537d67bc09fae",
+			"keccak256": "0x83449752f278ca049ad5779794b1f964b12616df9c99d17b4d5332b2b08a55df",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://02293c5e87b9358d5b08b7ca53a99ddcfea49c8ef424d6dfc6ec600e02dd765e",
-				"dweb:/ipfs/QmaSynJa1kYns6Z9tj7tv1hW9kwXyGFL8zewBhMGwSWsCb"
+				"bzz-raw://eb7a479442bfc8d0fbdf8d7b4c0a54a473e35588c1cd25c02a06b06d8309cae2",
+				"dweb:/ipfs/QmQVW7JMiZhq1qpEFY1DTxZpyQnvB1GahAH5VxBSKBp9os"
 			]
 		},
 		"Lesson4/remix-fund-me/PriceConverter.sol": {
