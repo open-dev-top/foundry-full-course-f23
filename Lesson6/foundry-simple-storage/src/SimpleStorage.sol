@@ -36,4 +36,10 @@ contract SimpleStorage2 {}
 
 contract SimpleStorage3 {}
 
-contract SimpleStorage4 {}
+contract SimpleStorage4 {
+
+}
+
+// Deploy on the Sepolia Testnet
+// Tool: Foundry Command
+// Contract Address: 0xb2A711e3664d0da057D53CdFAdC6ef2270AB44D2
