@@ -34,4 +34,19 @@ contract FundMeTest is Test {
 
         assertEq(fundMe.i_owner(), address(this));
     }
+
+    // We're going to talk about four different types of tests:
+    // 1. Uint
+    //    - Testing a specific part of our contract code.
+    // 2. Intergration
+    //    - Testing multiple different contracts are working correctly together.
+    // 3. Forked
+    //    - Testing our code on a simulated real environment.
+    // 4. Staging
+    //    - Testing our code in a real environment that is not prod.
+
+    function testPriceFeedVersionIsAccurate() public {
+        uint256 version = fundMe.getVersion();
+        assertEq(version, 4);
+    }
 }
