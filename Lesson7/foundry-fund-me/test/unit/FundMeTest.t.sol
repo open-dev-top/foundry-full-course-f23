@@ -34,11 +34,11 @@ contract FundMeTest is Test {
         vm.deal(USER, STARTING_BALANCE);
     }
 
-    function testMinimumDollarIsFive() public {
+    function testMinimumDollarIsFive() public view {
         assertEq(fundMe.MINIMUM_USD(), 5e18);
     }
 
-    function testOwnerIsMsgSender() public {
+    function testOwnerIsMsgSender() public view {
         // console.log(fundMe.i_owner());
         // console.log(msg.sender);
         // assertEq(fundMe.i_owner(), msg.sender);
@@ -57,7 +57,7 @@ contract FundMeTest is Test {
     // 4. Staging
     //    - Testing our code in a real environment that is not prod.
 
-    function testPriceFeedVersionIsAccurate() public {
+    function testPriceFeedVersionIsAccurate() public view {
         uint256 version = fundMe.getVersion();
         assertEq(version, 4);
     }
